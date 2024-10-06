@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TopTraderAI - Solana's Top Trader Analytics</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon_io/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <h1>Welcome to <span>TopTraderAI</span></h1>
+        <p>
+          Leverage Solana's best trading analytics platform to maximize your
+          trading success.
+        </p>
+        <a href="#packages" class="btn">Explore Packages</a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2>About TopTraderAI</h2>
+        <p>
+          TopTraderAI offers cutting-edge trading insights on Solana, analyzing
+          wallet addresses, token trading patterns, and providing real-time data
+          on top traders. Whether you're looking to gain insights on the most
+          profitable traders or want to filter traders based on custom criteria
+          like PnL, win rates, or more than 2x profit, TopTraderAI has you
+          covered.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <div class="container">
+        <h2>Key Features</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <h3>Wallet Analysis</h3>
+            <p>
+              Analyze wallet activity, transaction history, and performance
+              metrics across multiple Solana wallets.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Top Trader Insights</h3>
+            <p>
+              Get a detailed report of the top-performing traders in Solana for
+              any token of your choice.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Custom Filters</h3>
+            <p>
+              Filter top traders based on your preferred metrics like PnL, win
+              rate, and trades that yield more than 2x profit.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Real-time Updates</h3>
+            <p>
+              Stay ahead with live updates and analysis of wallet and trader
+              activities to optimize your trading decisions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages">
+      <div class="container">
+        <h2>Our Packages</h2>
+        <div class="package-cards">
+          <div class="card">
+            <h3>Basic</h3>
+            <p class="price">0.3 SOL/month</p>
+            <ul>
+              <li>100 wallet analysis per day</li>
+              <li>10 token top trader analysis per day</li>
+              <li><del>Filter top traders from previous trade history</del></li>
+            </ul>
+            <button class="btn" onclick="showPopup()">Register for Beta</button>
+          </div>
+          <div class="card">
+            <h3>Pro</h3>
+            <p class="price">0.5 SOL/month</p>
+            <ul>
+              <li>Unlimited wallet analysis</li>
+              <li>20 token top trader analysis per day</li>
+              <li><del>Filter top traders from previous trade history</del></li>
+            </ul>
+            <button class="btn" onclick="showPopup()">Register for Beta</button>
+          </div>
+          <div class="card premium">
+            <h3>Elite</h3>
+            <p class="price">1.5 SOL/month</p>
+            <ul>
+              <li>Unlimited wallet analysis</li>
+              <li>Unlimited token top trader analysis</li>
+              <li>
+                Unlimited filtering of top traders based on PnL, win rate, and
+                2x profit
+              </li>
+            </ul>
+            <button class="btn" onclick="showPopup()">Register for Beta</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>
+          Want more information or have any questions? Feel free to contact us
+          at: <a href="https://t.me/TopTraderAI">@TopTraderAI</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 TopTraderAI. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Popup Modal -->
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Registration Full!</h2>
+        <p>
+          100 traders have already registered for beta. Contact us for more
+          info: <a href="https://t.me/TopTraderAI">TopTraderAI</a>.
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
